@@ -14,6 +14,11 @@
 		04B8B6801DC3414D00AEF66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B8B67F1DC3414D00AEF66B /* Assets.xcassets */; };
 		04B8B6831DC3414D00AEF66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B8B6811DC3414D00AEF66B /* LaunchScreen.storyboard */; };
 		04B8B68E1DC3414D00AEF66B /* CFUITestingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8B68D1DC3414D00AEF66B /* CFUITestingDemoUITests.m */; };
+		04EE9E371DC4870C0054D0ED /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE9E361DC4870C0054D0ED /* MainView.m */; };
+		04EE9E3A1DC4964A0054D0ED /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE9E391DC4964A0054D0ED /* RedView.m */; };
+		04EE9E3D1DC496610054D0ED /* yellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE9E3C1DC496610054D0ED /* yellowView.m */; };
+		04EE9E401DC496740054D0ED /* blueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE9E3F1DC496740054D0ED /* blueView.m */; };
+		04EE9E431DC497F60054D0ED /* OrangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE9E421DC497F60054D0ED /* OrangeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		04B8B6891DC3414D00AEF66B /* CFUITestingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFUITestingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B8B68D1DC3414D00AEF66B /* CFUITestingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFUITestingDemoUITests.m; sourceTree = "<group>"; };
 		04B8B68F1DC3414D00AEF66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EE9E351DC4870C0054D0ED /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		04EE9E361DC4870C0054D0ED /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		04EE9E381DC4964A0054D0ED /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		04EE9E391DC4964A0054D0ED /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		04EE9E3B1DC496610054D0ED /* yellowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yellowView.h; sourceTree = "<group>"; };
+		04EE9E3C1DC496610054D0ED /* yellowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yellowView.m; sourceTree = "<group>"; };
+		04EE9E3E1DC496740054D0ED /* blueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blueView.h; sourceTree = "<group>"; };
+		04EE9E3F1DC496740054D0ED /* blueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blueView.m; sourceTree = "<group>"; };
+		04EE9E411DC497F60054D0ED /* OrangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeView.h; sourceTree = "<group>"; };
+		04EE9E421DC497F60054D0ED /* OrangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +100,16 @@
 				04B8B6771DC3414D00AEF66B /* AppDelegate.m */,
 				04B8B6791DC3414D00AEF66B /* ViewController.h */,
 				04B8B67A1DC3414D00AEF66B /* ViewController.m */,
+				04EE9E411DC497F60054D0ED /* OrangeView.h */,
+				04EE9E421DC497F60054D0ED /* OrangeView.m */,
+				04EE9E3E1DC496740054D0ED /* blueView.h */,
+				04EE9E3F1DC496740054D0ED /* blueView.m */,
+				04EE9E3B1DC496610054D0ED /* yellowView.h */,
+				04EE9E3C1DC496610054D0ED /* yellowView.m */,
+				04EE9E381DC4964A0054D0ED /* RedView.h */,
+				04EE9E391DC4964A0054D0ED /* RedView.m */,
+				04EE9E351DC4870C0054D0ED /* MainView.h */,
+				04EE9E361DC4870C0054D0ED /* MainView.m */,
 				04B8B67C1DC3414D00AEF66B /* Main.storyboard */,
 				04B8B67F1DC3414D00AEF66B /* Assets.xcassets */,
 				04B8B6811DC3414D00AEF66B /* LaunchScreen.storyboard */,
@@ -212,7 +237,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B8B67B1DC3414D00AEF66B /* ViewController.m in Sources */,
+				04EE9E401DC496740054D0ED /* blueView.m in Sources */,
+				04EE9E371DC4870C0054D0ED /* MainView.m in Sources */,
+				04EE9E3D1DC496610054D0ED /* yellowView.m in Sources */,
 				04B8B6781DC3414D00AEF66B /* AppDelegate.m in Sources */,
+				04EE9E3A1DC4964A0054D0ED /* RedView.m in Sources */,
+				04EE9E431DC497F60054D0ED /* OrangeView.m in Sources */,
 				04B8B6751DC3414D00AEF66B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +432,7 @@
 				04B8B6941DC3414D00AEF66B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B8B6951DC3414D00AEF66B /* Build configuration list for PBXNativeTarget "CFUITestingDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +441,7 @@
 				04B8B6971DC3414D00AEF66B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

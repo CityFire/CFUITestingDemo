@@ -1,25 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" tag="1000" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="MainView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" tag="1001" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yQr-3Z-W4h">
+                                <rect key="frame" x="135" y="34" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.036975740860000002" green="0.68367346939999996" blue="0.130313713" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view hidden="YES" tag="1002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7uY-IU-Ssi" customClass="OrangeView">
+                                <rect key="frame" x="58" y="181" width="431" height="263"/>
+                                <subviews>
+                                    <view tag="1003" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pFd-MO-uDF" customClass="blueView">
+                                        <rect key="frame" x="51" y="28" width="240" height="128"/>
+                                        <subviews>
+                                            <view alpha="0.5" tag="1004" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wVh-Lk-8TE" customClass="yellowView">
+                                                <rect key="frame" x="61" y="8" width="119" height="57"/>
+                                                <subviews>
+                                                    <view tag="1006" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rOh-Oa-nkH" customClass="RedView">
+                                                        <rect key="frame" x="20" y="17" width="78" height="32"/>
+                                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.99998549049999996" blue="0.35052786029999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view tag="1005" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q8n-9z-x0C">
+                                        <rect key="frame" x="159" y="108" width="240" height="128"/>
+                                        <color key="backgroundColor" red="1" green="0.18720697359999999" blue="0.3419581062" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="blueView" destination="pFd-MO-uDF" id="duW-Fb-qdg"/>
+                        <outlet property="greenView" destination="yQr-3Z-W4h" id="wDt-X1-NPA"/>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="tXg-2j-39b"/>
+                        <outlet property="orangeView" destination="7uY-IU-Ssi" id="vjA-mg-g40"/>
+                        <outlet property="pinkView" destination="rOh-Oa-nkH" id="M4y-TZ-XrL"/>
+                        <outlet property="redView" destination="q8n-9z-x0C" id="w3Y-g8-c3h"/>
+                        <outlet property="yellowView" destination="wVh-Lk-8TE" id="bH0-kg-78e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="266" y="355"/>
         </scene>
     </scenes>
 </document>
